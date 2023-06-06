@@ -1,0 +1,155 @@
+.Btn-item {
+  margin: 50px;
+  width: 35%;
+}
+
+.default {
+  width: 81px;
+  height: 36px;
+  background-color: #e0e0e0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  &:hover {
+    background-color: #aeaeae;
+  }
+}
+
+.outline {
+  width: 88px;
+  height: 36px;
+  border: 1px solid #3d5afe;
+  border-radius: 6px;
+  color: #3d5afe;
+  font-weight: 600;
+  &:hover {
+    background: rgba(41, 98, 255, 0.1);
+  }
+}
+
+.disable {
+  width: 88px;
+  height: 36px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  color: #9e9e9e;
+  background-color: transparent;
+}
+
+.disableShadow {
+  width: 81px;
+  height: 36px;
+  background: #3d5afe;
+  font-weight: 600;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+.start {
+  width: 81px;
+  height: 36px;
+  background-color: #3d5afe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.end {
+  width: 81px;
+  height: 36px;
+  background-color: #3d5afe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.sm {
+  width: 73px;
+  height: 32px;
+  background-color: #3d5afe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 5px;
+}
+.md {
+  width: 81px;
+  height: 36px;
+  background-color: #3d5afe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.lg {
+  width: 93px;
+  height: 42px;
+  background-color: #3d5afe;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  display: inline-flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 5px;
+}
+
+.Danger {
+  width: 81px;
+  height: 36px;
+  background-color: #d32f2f;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  &:hover {
+    background-color: #9a0007;
+  }
+}
+
+.Secondary {
+  width: 104px;
+  height: 36px;
+  background-color: #455A64;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  color: white;
+  &:hover {
+    background-color:#1C313A;
+  }
+}
